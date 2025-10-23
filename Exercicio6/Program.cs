@@ -4,69 +4,90 @@ double nota1, nota2, nota3, nota4;
 double media;
 int frequência;
 
-
-
-Console.WriteLine("----------------------------------------------------------------");
-Console.WriteLine("digite a primeira nota");
-nota1 = double.Parse(Console.ReadLine());
-Console.WriteLine("----------------------------------------------------------------");
-Console.WriteLine("");
-
-
-Console.WriteLine("----------------------------------------------------------------");
-Console.WriteLine("digite a segunda nota");
-nota2 = double.Parse(Console.ReadLine());
-Console.WriteLine("----------------------------------------------------------------");
-Console.WriteLine();
-
-Console.WriteLine("----------------------------------------------------------------");
-Console.WriteLine("digite a terceira nota");
-nota3 = double.Parse(Console.ReadLine());
-Console.WriteLine("----------------------------------------------------------------");
-Console.WriteLine();
-
-
-Console.WriteLine("----------------------------------------------------------------");
-Console.WriteLine("digite a quarta nota");
-nota4 = double.Parse(Console.ReadLine());
-Console.WriteLine("----------------------------------------------------------------");
-Console.WriteLine();
-
-Console.WriteLine("----------------------------------------------------------------");
-Console.WriteLine("digite a frequência do aluno");
-frequência = int.Parse(Console.ReadLine());
-Console.WriteLine("----------------------------------------------------------------");
-Console.WriteLine();
-
-media = (nota1 + nota2 + nota3 + nota4) / 4;
-
-if (media < 3  || frequência < 75)
+void MediaAluno()
 {
+
     Console.WriteLine("----------------------------------------------------------------");
-    Console.WriteLine("O aluno está REPROVADO");
-    Console.WriteLine($"Nota: {media}");
-    Console.WriteLine($"Frequência: {frequência}%");
+    Console.WriteLine("digite a primeira nota");
+    nota1 = double.Parse(Console.ReadLine());
+    Console.WriteLine("----------------------------------------------------------------");
+    Console.WriteLine("");
+
+
+    Console.WriteLine("----------------------------------------------------------------");
+    Console.WriteLine("digite a segunda nota");
+    nota2 = double.Parse(Console.ReadLine());
     Console.WriteLine("----------------------------------------------------------------");
     Console.WriteLine();
+
+    Console.WriteLine("----------------------------------------------------------------");
+    Console.WriteLine("digite a terceira nota");
+    nota3 = double.Parse(Console.ReadLine());
+    Console.WriteLine("----------------------------------------------------------------");
+    Console.WriteLine();
+
+
+    Console.WriteLine("----------------------------------------------------------------");
+    Console.WriteLine("digite a quarta nota");
+    nota4 = double.Parse(Console.ReadLine());
+    Console.WriteLine("----------------------------------------------------------------");
+    Console.WriteLine();
+
+    Console.WriteLine("----------------------------------------------------------------");
+    Console.WriteLine("digite a frequência do aluno");
+    frequência = int.Parse(Console.ReadLine());
+    Console.WriteLine("----------------------------------------------------------------");
+    Console.WriteLine();
+
+    media = (nota1 + nota2 + nota3 + nota4) / 4;
+
+    if (media < 3 || frequência < 75)
+    {
+        Console.WriteLine("----------------------------------------------------------------");
+        Console.WriteLine("O aluno está REPROVADO");
+        Console.WriteLine($"Nota: {media}");
+        Console.WriteLine($"Frequência: {frequência}%");
+        Console.WriteLine("----------------------------------------------------------------");
+        Console.WriteLine();
+    }
+
+    else if (media >= 3)
+    {
+        Console.WriteLine("----------------------------------------------------------------");
+        Console.WriteLine("O aluno está de recuperação");
+        Console.WriteLine($"Nota: {media}");
+        Console.WriteLine($"Frequência: {frequência}%");
+        Console.WriteLine("----------------------------------------------------------------");
+        Console.WriteLine();
+    }
+
+    else
+    {
+        Console.WriteLine("----------------------------------------------------------------");
+        Console.WriteLine("O aluno foi APROVADO");
+        Console.WriteLine($"Nota: {media}");
+        Console.WriteLine($"Frequência: {frequência}%");
+        Console.WriteLine("----------------------------------------------------------------");
+        Console.WriteLine();
+    }
 }
 
-else if (media >= 3 )
+Console.WriteLine("----------------------------------------------------------------");
+Console.WriteLine("Mercadinho");
+Console.WriteLine("----------------------------------------------------------------");
+Console.WriteLine("Escolha uma opção do menu abaixo");
+Console.WriteLine("1 - Consultar preço");
+int opçãoEscolhida = int.Parse(Console.ReadLine());
+Console.WriteLine("----------------------------------------------------------------");
+Console.WriteLine();
+
+
+if (opçãoEscolhida == 1)
 {
-    Console.WriteLine("----------------------------------------------------------------");
-    Console.WriteLine("O aluno está de recuperação");
-    Console.WriteLine($"Nota: {media}");
-    Console.WriteLine($"Frequência: {frequência}%");
-    Console.WriteLine("----------------------------------------------------------------");
-    Console.WriteLine();
+    MediaAluno();
 }
 
 else
 {
-    Console.WriteLine("----------------------------------------------------------------");
-    Console.WriteLine("O aluno foi APROVADO");
-    Console.WriteLine($"Nota: {media}");
-    Console.WriteLine($"Frequência: {frequência}%");
-    Console.WriteLine("----------------------------------------------------------------");
-    Console.WriteLine();
-}
-;
+    Console.WriteLine("Opção INVALIDA");
+};
