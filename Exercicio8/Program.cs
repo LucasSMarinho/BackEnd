@@ -8,31 +8,6 @@ int opçãoEscolhida;
 String nome;
 
 //função
-void FunçãoWritetext(int Opção)
-{
-    switch (Opção)
-    {
-        case 1:
-            Console.WriteLine("Você a escolheu primeira opção");
-            break;
-
-        case 2:
-            Console.WriteLine("Você a escolheu segunda opção");
-            break;
-
-        case 3:
-            Console.WriteLine("Você a escolheu terceira opção");
-            break;
-
-        case 4:
-            Console.WriteLine("Você saiu, espero que tenha gostado");
-            break;
-
-        default:
-            Console.WriteLine("Você escolheu uma opção INVALIDA");
-            break;
-    }
-}
 
 void ImprimirTexto(String texto)
 {
@@ -58,8 +33,13 @@ Console.WriteLine("3 - Opção 3");
 Console.WriteLine("4 - Sair");
 Console.WriteLine("----------------------------------------------------------------");
 
+
+
+do
+
+{
     opçãoEscolhida = int.Parse(Console.ReadLine());
- switch (opçãoEscolhida)
+    switch (opçãoEscolhida)
     {
 
         case 1:
@@ -83,3 +63,4 @@ Console.WriteLine("-------------------------------------------------------------
             Console.WriteLine("Opção Invalida");
             break;
     }
+} while (i < 1);

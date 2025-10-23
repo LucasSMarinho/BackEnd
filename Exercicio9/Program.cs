@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System.Collections;
+﻿using System.Collections;
 using System.Diagnostics;
 using System.Linq.Expressions;
 
@@ -58,28 +57,33 @@ Console.WriteLine("3 - Opção 3");
 Console.WriteLine("4 - Sair");
 Console.WriteLine("----------------------------------------------------------------");
 
+
+
+do
+
+{
     opçãoEscolhida = int.Parse(Console.ReadLine());
- switch (opçãoEscolhida)
+    switch (opçãoEscolhida)
     {
 
         case 1:
-            Console.WriteLine("Você a escolheu primeira opção");
-
+            FunçãoWritetext(1);
             break;
         case 2:
-            Console.WriteLine("Você a escolheu segunda opção");
+            FunçãoWritetext(2);
             break;
 
         case 3:
-            Console.WriteLine("Você a escolheu terceira opção");
+            FunçãoWritetext(3);
             break;
 
         case 4:
-            Console.WriteLine("Você a escolheu quarteira opção");
+            FunçãoWritetext(4);
             i++;
             break;
 
         default:
-            Console.WriteLine("Opção Invalida");
+            FunçãoWritetext(5);
             break;
     }
+} while (i < 1);

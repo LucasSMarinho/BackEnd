@@ -73,7 +73,7 @@ void MediaAluno()
 }
 
 Console.WriteLine("----------------------------------------------------------------");
-Console.WriteLine("Mercadinho");
+Console.WriteLine("Media dos alunos");
 Console.WriteLine("----------------------------------------------------------------");
 Console.WriteLine("Escolha uma opção do menu abaixo");
 Console.WriteLine("1 - Consultar preço");
