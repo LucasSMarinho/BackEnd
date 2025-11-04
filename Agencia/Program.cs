@@ -133,7 +133,7 @@ void Depositar()
     for (int i = 0; i < totalClientes; i++)
     {
         Console.WriteLine("----------------------------------------------------------------");
-        Console.WriteLine($"{i + 1} - {nomes[i]} - {idades[i]} anos - Deposito Atual: R$:{saldo[i]}");
+        Console.WriteLine($"{i + 1} - {nomes[i]} - {idades[i]} anos - Deposito Atual: R$:{saldo[i]:F2}");
         Console.WriteLine("----------------------------------------------------------------");
         Console.WriteLine();
         Thread.Sleep(1000);
@@ -167,7 +167,7 @@ void Sacar()
     for (int i = 0; i < totalClientes; i++)
     {
         Console.WriteLine("----------------------------------------------------------------");
-        Console.WriteLine($"{i + 1} - {nomes[i]} - {idades[i]} anos - Deposito Atual: R$:{saldo[i]}");
+        Console.WriteLine($"{i + 1} - {nomes[i]} - {idades[i]} anos - Deposito Atual: R$:{saldo[i]:F2}");
         Console.WriteLine("----------------------------------------------------------------");
         Console.WriteLine();
         Thread.Sleep(1000);
@@ -211,7 +211,7 @@ void Transferencia()
     for (int i = 0; i < totalClientes; i++)
     {
         Console.WriteLine("----------------------------------------------------------------");
-        Console.WriteLine($"{i + 1} - {nomes[i]} - {idades[i]} anos - Deposito Atual: R$:{saldo[i]}");
+        Console.WriteLine($"{i + 1} - {nomes[i]} - {idades[i]} anos - Deposito Atual: R$:{saldo[i]:F2}");
         Console.WriteLine("----------------------------------------------------------------");
         Console.WriteLine();
         Thread.Sleep(1000);
@@ -227,7 +227,7 @@ void Transferencia()
     for (int i = 0; i < totalClientes; i++)
     {
         Console.WriteLine("----------------------------------------------------------------");
-        Console.WriteLine($"{i + 1} - {nomes[i]} - {idades[i]} anos - Deposito Atual: R$:{saldo[i]}");
+        Console.WriteLine($"{i + 1} - {nomes[i]} - {idades[i]} anos - Deposito Atual: R$:{saldo[i]:F2}");
         Console.WriteLine("----------------------------------------------------------------");
         Console.WriteLine();
         Thread.Sleep(1000);
@@ -254,8 +254,8 @@ void Transferencia()
         saldo[n1 - 1] -= transferencia;
         saldo[n2 - 1] += transferencia;
         Console.WriteLine($"Saque concluido!");
-        Console.WriteLine($"Saldo atual do(a) {nomes[n1 - 1]}: R${saldo[n1 - 1]}");
-        Console.WriteLine($"Saldo atual do(a) {nomes[n2 - 1]}: R${saldo[n2 - 1]}");
+        Console.WriteLine($"Saldo atual do(a) {nomes[n1 - 1]}: R${saldo[n1 - 1]:F2}");
+        Console.WriteLine($"Saldo atual do(a) {nomes[n2 - 1]}: R${saldo[n2 - 1]:F2}");
     }
 }
 
@@ -269,7 +269,7 @@ void ListarClientes()
     for (int i = 0; i < totalClientes; i++)
     {
         Console.WriteLine("----------------------------------------------------------------");
-        Console.WriteLine($"{i} - {nomes[i]}, {idades[i]} anos - Depositado Atual: R$:{saldo[i]}");
+        Console.WriteLine($"{i} - {nomes[i]}, {idades[i]} anos - Depositado Atual: R$:{saldo[i]:F2}");
         Console.WriteLine("----------------------------------------------------------------");
         Console.WriteLine();
         Thread.Sleep(1000);

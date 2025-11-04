@@ -1,0 +1,15 @@
+C:\Users\45193262813\Desktop\BackEnd\POO\ExerciciosMConstrutor\obj\Debug\net9.0\ExerciciosMConstrutor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\45193262813\Desktop\BackEnd\POO\ExerciciosMConstrutor\obj\Debug\net9.0\ExerciciosMConstrutor.AssemblyInfoInputs.cache
+C:\Users\45193262813\Desktop\BackEnd\POO\ExerciciosMConstrutor\obj\Debug\net9.0\ExerciciosMConstrutor.AssemblyInfo.cs
+C:\Users\45193262813\Desktop\BackEnd\POO\ExerciciosMConstrutor\obj\Debug\net9.0\ExerciciosMConstrutor.csproj.CoreCompileInputs.cache
+C:\Users\45193262813\Desktop\BackEnd\POO\ExerciciosMConstrutor\obj\Debug\net9.0\ExerciciosMConstrutor.sourcelink.json
+C:\Users\45193262813\Desktop\BackEnd\POO\ExerciciosMConstrutor\bin\Debug\net9.0\ExerciciosMConstrutor.exe
+C:\Users\45193262813\Desktop\BackEnd\POO\ExerciciosMConstrutor\bin\Debug\net9.0\ExerciciosMConstrutor.deps.json
+C:\Users\45193262813\Desktop\BackEnd\POO\ExerciciosMConstrutor\bin\Debug\net9.0\ExerciciosMConstrutor.runtimeconfig.json
+C:\Users\45193262813\Desktop\BackEnd\POO\ExerciciosMConstrutor\bin\Debug\net9.0\ExerciciosMConstrutor.dll
+C:\Users\45193262813\Desktop\BackEnd\POO\ExerciciosMConstrutor\bin\Debug\net9.0\ExerciciosMConstrutor.pdb
+C:\Users\45193262813\Desktop\BackEnd\POO\ExerciciosMConstrutor\obj\Debug\net9.0\ExerciciosMConstrutor.dll
+C:\Users\45193262813\Desktop\BackEnd\POO\ExerciciosMConstrutor\obj\Debug\net9.0\refint\ExerciciosMConstrutor.dll
+C:\Users\45193262813\Desktop\BackEnd\POO\ExerciciosMConstrutor\obj\Debug\net9.0\ExerciciosMConstrutor.pdb
+C:\Users\45193262813\Desktop\BackEnd\POO\ExerciciosMConstrutor\obj\Debug\net9.0\ExerciciosMConstrutor.genruntimeconfig.cache
+C:\Users\45193262813\Desktop\BackEnd\POO\ExerciciosMConstrutor\obj\Debug\net9.0\ref\ExerciciosMConstrutor.dll
