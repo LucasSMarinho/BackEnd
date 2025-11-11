@@ -1,5 +1,5 @@
-﻿//Imports das classes exeternas
-using PrimeiraClasse;
+﻿using PrimeiraClasse;
+//Imports das classes exeternas
 
 /* Console.Clear();
 
@@ -92,23 +92,23 @@ cumprimento.SaldarComNome(nome); */
 // System.Console.WriteLine($"Quantidade de rodas: {m2.QtdRodas}");
 // System.Console.WriteLine($"-------------------------------");
 
-Garrafa g1 = new Garrafa();
-Console.WriteLine("Quantos litros a garrafa sustenta?");
-g1.VolumeLitros = double.Parse(Console.ReadLine());
-Console.WriteLine("Qual é a marca da garrafa?");
-g1.Marca = Console.ReadLine();
-Console.WriteLine("Qual é a cor da garrafa?");
-g1.Cor = Console.ReadLine();
-Console.WriteLine("Qual é o material da garrafa?");
-g1.Material = Console.ReadLine();
+// Garrafa g1 = new Garrafa();
+// Console.WriteLine("Quantos litros a garrafa sustenta?");
+// g1.VolumeLitros = double.Parse(Console.ReadLine());
+// Console.WriteLine("Qual é a marca da garrafa?");
+// g1.Marca = Console.ReadLine();
+// Console.WriteLine("Qual é a cor da garrafa?");
+// g1.Cor = Console.ReadLine();
+// Console.WriteLine("Qual é o material da garrafa?");
+// g1.Material = Console.ReadLine();
 
-g1.Encher();
-g1.Esvaziando();
+// g1.Encher();
+// g1.Esvaziando();
 
 
-System.Console.WriteLine($"----------Garrafa----------");
-System.Console.WriteLine($"Marca da garrafa: {g1.Marca}");
-System.Console.WriteLine($"Material: {g1.Material}");
-System.Console.WriteLine($"Cor: {g1.Cor}");
-System.Console.WriteLine($"Capacidade: {g1.VolumeLitros}");
-System.Console.WriteLine($"-------------------------------");
+// System.Console.WriteLine($"----------Garrafa----------");
+// System.Console.WriteLine($"Marca da garrafa: {g1.Marca}");
+// System.Console.WriteLine($"Material: {g1.Material}");
+// System.Console.WriteLine($"Cor: {g1.Cor}");
+// System.Console.WriteLine($"Capacidade: {g1.VolumeLitros}");
+// System.Console.WriteLine($"-------------------------------");
