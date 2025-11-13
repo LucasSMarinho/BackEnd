@@ -1,0 +1,12 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Exercicio4
+{
+    public class Aluno : Pessoa
+    {
+        public string Curso = " ";
+    }
+}
