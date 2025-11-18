@@ -3,9 +3,9 @@ namespace Exemplos
     public interface IControle
     {
 
-        void Ligar();
-        void Desligar();
-        void AumentarVolume();
-        void DiminuirVolume();
+        public void Ligar();
+        public void Desligar();
+        public void AumentarVolume();
+        public void DiminuirVolume();
     }
 }
